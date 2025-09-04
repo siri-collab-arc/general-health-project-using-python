@@ -1,27 +1,38 @@
-# General Hospital Management System
+# 🏥 General Hospital – Heart Disease Prediction
 
 ## 📖 Description
-The **General Hospital Management System** is a project developed to manage hospital activities such as patient details, doctor appointments, billing, and staff records.  
-It provides a simple and effective solution for hospital administration.
+This project is based on a **General Hospital scenario** where patient health data is analyzed to predict the presence of heart disease.  
+Using **Machine Learning models**, the system helps in identifying patients at risk and supports doctors in decision-making.
+
+---
+
+## 📊 Dataset
+- File used: `CVD_cleaned.csv`  
+- Contains patient details like age, gender, BMI, smoking status, blood pressure, cholesterol, etc.  
+- Target column: `Heart_Disease` (Yes/No)  
 
 ---
 
 ## ✨ Features
-- Patient registration and record management  
-- Doctor appointment booking  
-- Billing system  
-- Staff management  
+- Data preprocessing (handling categorical & numerical data)  
+- Feature scaling and label encoding  
+- Machine Learning models trained:  
+  - Logistic Regression  
+  - Support Vector Classifier (SVC)  
+  - Random Forest Classifier  
+- Model evaluation with Accuracy, Classification Report, and Confusion Matrix  
 
 ---
 
 ## 🛠 Tech Stack
-- Programming Language: (Write the one you used, e.g., Python / Java / C++)  
-- Database: (MySQL / SQLite if used, else remove)  
-- Tools: Git, VS Code / Eclipse / PyCharm  
+- **Python**  
+- **Pandas, NumPy** for data handling  
+- **Matplotlib** for visualization  
+- **Scikit-learn** for ML models and evaluation  
 
 ---
 
 ## 🚀 How to Run
-1. Clone the repository  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/general-hospital.git
